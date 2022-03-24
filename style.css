@@ -21,6 +21,7 @@ html {
   border: none;
   border-radius: 3rem;
   color: #fff;
+  cursor: pointer;
   font-size: 1.6rem;
   font-weight: 600;
   height: 5rem;
@@ -346,4 +347,67 @@ html {
 .section-4-list-item a {
   color: #036bb1;
   font-weight: bold;
+}
+
+/* Section 5 */
+
+.section-5 {
+  width: 100%;
+}
+
+.section-5-top {
+  background-color: #f3f7f8;
+  padding: 7rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.section-5-top-heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: space-between;
+  padding: 4rem 0 3rem 0;
+  width: 100%;
+}
+
+.footer-top {
+  border-bottom: .1rem dotted #262626;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 70%;
+}
+
+.footer-list {
+  align-items: center;
+  display: flex;
+}
+
+.footer-list li {
+  margin-right: 2.5rem;
+}
+
+.footer-list a {
+  color: #262626;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-list img {
+  opacity: .6;
+  width: 3.8rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
 }
