@@ -244,3 +244,47 @@ html {
   padding: 1.5rem;
   width: 20rem;
 }
+
+/* Section 3 */
+
+.section-3 {
+  align-items:center;
+  background: linear-gradient(to right, rgba(3,33,129,.9), rgba(9,67,153,.8), rgba(4,32,124,.9));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+.section-3-heading {
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 5rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.feature {
+  margin-bottom: 5rem;
+  padding: 0 5rem;
+  text-align: center;
+  width: calc(100% / 3);
+}
+
+.feature-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0 auto 1rem auto;
+  width: max-content;
+}
+
+.feature-paragraph {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
