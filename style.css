@@ -92,6 +92,39 @@ html {
   border-bottom: .2rem solid #fff;
 }
 
+.nav-dropdown {
+  background: linear-gradient(to right, #066399, #2f8fdf, #066399);
+  display: flex;
+  flex-wrap: wrap;
+  height: 20rem;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  padding: 0 30rem;
+  position: absolute;
+  top: 8rem; 
+  visibility: hidden;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-dropdown-item {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 10rem;
+  width: 25rem;
+}
+
+.nav-dropdown-link-1 {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.nav-dropdown-link-2 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
 .nav-list-link {
   align-items: center;
   color: #fff;
@@ -153,4 +186,3 @@ html {
   margin: 0 auto 4rem auto;
   width: 50%;
 }
-
