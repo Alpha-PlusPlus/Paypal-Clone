@@ -288,3 +288,62 @@ html {
   font-weight: 500;
   line-height: 1.2;
 }
+
+/* Section 4 */
+
+.section-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0;
+  width: 100%;
+}
+
+.section-4-heading {
+  color: #444;
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.section-4-content {
+  display: flex;
+}
+
+.section-4-img-wrapper {
+  width: 50rem;
+}
+
+.section-4-img-wrapper img {
+  opacity: .8;
+  width: 100%;
+}
+
+.section-4-list {
+  margin-top: 2rem;
+  width: 55%;
+}
+
+.section-4-list-item {
+  align-items: center;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.number {
+  align-items: center;
+  border: .1rem solid #555;
+  border-radius: 50%;
+  display: flex;
+  height: 3.5rem;
+  justify-content: center;
+  margin-right: 1.5rem;
+  width: 3.5rem;
+}
+
+.section-4-list-item a {
+  color: #036bb1;
+  font-weight: bold;
+}
