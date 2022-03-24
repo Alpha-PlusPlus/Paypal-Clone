@@ -186,3 +186,61 @@ html {
   margin: 0 auto 4rem auto;
   width: 50%;
 }
+
+/* Section 2 */
+
+.section-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0 15rem 0;
+  width: 100%;
+}
+
+.section-2-heading {
+  color: #333;
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+
+.services {
+  display: flex;
+}
+
+.service {
+  margin: 0 5rem;
+  text-align: center;
+  width: 35rem;
+}
+
+.service i {
+  color: #229fe7;
+  font-size: 6rem;
+  margin: 2rem 0;
+}
+
+.service-heading {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.service-paragraph {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.service-btn {
+  background-color: transparent;
+  border: .1rem solid #036bb1;
+  border-radius: 3rem;
+  color: #036bb1;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  width: 20rem;
+}
