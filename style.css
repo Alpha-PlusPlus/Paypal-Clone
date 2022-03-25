@@ -28,6 +28,35 @@ html {
   width: 35rem;
 }
 
+.logo {
+  color: #fff;
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  position: relative;
+}
+
+.p-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.p-2 {
+  color: #bbb;
+  font-size: 4.5rem;
+  left: .5rem;
+  position: absolute;
+  top: .4rem;
+}
+
+/* Front */
+
+.front-page {
+  display: none;
+}
+
 /* Section 1 */
 
 .section-1 {
@@ -52,29 +81,6 @@ html {
   height: 100%;
   justify-content: space-between;
   width: 120rem;
-}
-
-.navbar-logo {
-  color: #fff;
-  font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 800;
-  position: relative;
-}
-
-.p-1 {
-  font-size: 4.5rem;
-  margin-right: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.p-2 {
-  color: #bbb;
-  font-size: 4.5rem;
-  left: .5rem;
-  position: absolute;
-  top: .4rem;
 }
 
 .nav-list {
@@ -410,4 +416,117 @@ html {
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: .1rem;
+}
+
+/* Login Page */
+
+.login-page {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.login-page-content {
+  align-items: center;
+  border: .1rem solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  padding: 3rem;
+  position: absolute;
+  top: 12%;
+  transform: translateX(-50%);
+}
+
+
+.login-page-logo {
+  margin-bottom: 1.2rem;
+}
+
+.login-page-logo .p-1 {
+  color: #064699;
+}
+
+.login-page-logo .p-2 {
+  color: #32a4f0;
+}
+
+.login-page-logo span:nth-child(3) {
+  color: #064699;
+}
+
+.login-page-logo span:nth-child(4) {
+  color: #32a4f0;
+}
+
+.login-page-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page-form input {
+  border-radius: .5rem;
+  height: 4.5rem;
+  margin: 1rem;
+  width: 37rem;
+}
+
+.form-login-input {
+  border: .1rem solid #777;
+  font-size: 1.6rem;
+  padding: 0 1.5rem;
+}
+
+.form-login-btn {
+  background-color: #036bb1;
+  border: .1rem solid #036bb1;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.form-login-link {
+  color: #229fe7;
+  font-size: 1.6rem;
+  margin: 1.2rem 0 1rem 0;
+}
+
+.login-page-form span {
+  color: #888;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  position: relative;
+  width: 2rem;
+}
+
+.login-page-form span::before {
+  background-color: #ccc;
+  content: "";
+  height: .1rem;
+  position: absolute;
+  right: 3.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16rem;
+}
+
+.login-page-form span::after {
+  background-color: #ccc;
+  content: "";
+  height: .1rem;
+  position: absolute;
+  left: 3.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16rem;
+}
+
+.form-signup-btn {
+  background-color: #dbe8ec;
+  border: .1rem solid #dbe8ec;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
