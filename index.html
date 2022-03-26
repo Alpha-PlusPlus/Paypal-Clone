@@ -27,6 +27,17 @@
         
         <div class="navbar-wrapper">
           <nav class="navbar">
+            <!-- Hamburger 1000px -->
+            <div class="menu">
+              <div class="menu-icon">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <span>Menu</span>
+            </div>
+
+            <!-- Full navbar -->
             <div class="navbar-logo logo">
               <span class="p-1">P</span>
               <span class="p-2">P</span>
@@ -34,8 +45,13 @@
             </div>
             <ul class="nav-list">
               <li class="nav-list-item dropdown-hover">
-                <a href="#" class="nav-list-link">Personal <i class="fas fa-chevron-down"></i></a>
-                <ul class="nav-dropdown">
+                <a href="#" class="nav-list-link show-dropdown">Personal <i class="fas fa-chevron-down"></i></a>
+                <ul class="nav-dropdown nav-dropdown-personal">
+                  <li class="nav-dropdown-item dropdown-heading">
+                    <a href="#" class="dropdown-heading-link">
+                      <i class="fas fa-chevron-down"></i> Personal
+                    </a>
+                  </li>
                   <li class="nav-dropdown-item">
                     <a href="" class="nav-dropdown-link-1">How PayPal works</a>
                     <a href="" class="nav-dropdown-link-2">What can you do with a personal account</a>
@@ -55,8 +71,13 @@
                 </ul>
               </li>
               <li class="nav-list-item dropdown-hover">
-                <a href="#" class="nav-list-link">Business <i class="fas fa-chevron-down"></i></a>
-                <ul class="nav-dropdown">
+                <a href="#" class="nav-list-link show-dropdown">Business <i class="fas fa-chevron-down"></i></a>
+                <ul class="nav-dropdown nav-dropdown-business">
+                  <li class="nav-dropdown-item dropdown-heading">
+                    <a href="#" class="dropdown-heading-link">
+                      <i class="fas fa-chevron-down"></i> Business
+                    </a>
+                  </li>
                   <li class="nav-dropdown-item">
                     <a href="" class="nav-dropdown-link-1">All business solutions</a>
                     <a href="" class="nav-dropdown-link-2">See our range of products</a>
@@ -80,8 +101,8 @@
               </li>
             </ul>
             <div class="navbar-buttons">
-              <button class="navbar-btn login-btn">Login</button>
-              <button class="navbar-btn signup-btn">Signup</button>
+              <button class="navbar-btn login-btn login">Login</button>
+              <button class="navbar-btn signup-btn signup">Signup</button>
             </div>
           </nav>
         </div>
@@ -89,7 +110,7 @@
         <!-- Banner -->
         
         <div class="banner">
-          <h1 class="banner-heading">We've got youy covered</h1>
+          <h1 class="banner-heading">We've got you covered</h1>
           <p class="banner-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, corrupti explicabo non neque quos fugiat culpa perferendis, quasi molestiae autem quae a ad cupiditate consequuntur saepe dolorem facilis possimus quibusdam!</p>
           <button class="blue-btn">Learn More</button>
         </div>
@@ -184,7 +205,7 @@
       <section class="section-5">
         <div class="section-5-top">
           <h2 class="section-5-top-heading">Sign Up and Get Started</h2>
-          <button class="blue-btn">Get Started</button>
+          <button class="blue-btn signup">Get Started</button>
         </div>
         <footer class="footer">
           <div class="footer-top">
@@ -248,8 +269,52 @@
           <input type="button" class="form-login-btn" value="Log In">
           <a href="#" class="form-login-link">Having trouble logging in?</a>
           <span>or</span>
-          <input type="button" class="form-signup-btn" value="Sign Up">
+          <input type="button" class="form-signup-btn signup" value="Sign Up">
         </form>
+      </div>
+    </div>
+
+    <!-- Signup Page -->
+
+    <div class="signup-page">
+      <div class="signup-page-top">
+        <div class="signup-page-logo logo">
+          <span class="p-1">P</span>
+          <span class="p-2">P</span>
+          PayPal
+        </div>
+        <button class="login">Log In</button>
+      </div>
+      <div class="signup-page-content">
+        <div class="signup-page-content-left">
+          <div class="content-left-images">
+            <img src="img/person-1.jpg">
+            <img src="img/person-2.jpg">
+            <img src="img/person-3.jpg">
+          </div>
+          <h2>See for yourself why millions of people love PayPal.</h2>
+        </div>
+        <div class="signup-page-content-right">
+          <h3>Sign up for PayPal, it's free</h3>
+          <h4>Choose from two types of accounts:</h4>
+          <form action="" class="signup-page-form">
+            <div class="input-group">
+              <input type="radio" name="checkbox" checked>
+              <div class="option">
+                <h3>Personal Account</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt, commodi dolore rerum quae libero! Velit, ab sed. Vitae, sit.</p>
+              </div>
+            </div>
+            <div class="input-group">
+              <input type="radio" name="checkbox">
+              <div class="option">
+                <h3>Business Account</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt, commodi dolore rerum quae libero! Velit, ab sed. Vitae, sit.</p>
+              </div>
+            </div>
+            <button class="blue-btn">Contine</button>
+          </form>
+        </div>
       </div>
     </div>
 
